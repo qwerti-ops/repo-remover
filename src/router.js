@@ -24,6 +24,8 @@ const router = new Router({
       name: 'about',
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
+
+    // 404 Page - Only served in dev environment
     {
       path: '*',
       component: () => import(/* webpackChunkName: "notFound" */ './views/NotFound.vue')

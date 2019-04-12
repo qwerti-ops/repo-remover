@@ -42,8 +42,12 @@
       "dest": "/robots.txt"
     },
     {
-      "src": ".*",
+      "src": "^/(about|details)?",
       "dest": "/index.html"
+    },
+    {
+      "src": ".*",
+      "dest": "/not-found.html"
     }
   ]
 }
