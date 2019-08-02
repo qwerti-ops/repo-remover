@@ -1,3 +1,5 @@
+I forked this to change the maximum limit of repositories displayed in every page.
+
 # Repo Remover
 ### Easily archive and delete your GitHub Repos.
 
